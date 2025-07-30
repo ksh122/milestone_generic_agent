@@ -1,0 +1,27 @@
+{
+  "_id": "object(uuid)",
+  "agent_id": "<uuid> id of the agent ",
+  "build_setting": {
+    "code_repo": {
+      "code_path": "chat_agent/",
+      "name": "react",
+      "repo_path": "https://agent-templates.git",
+      "repo_tag": 23,
+      "repo_type": "git",
+      "config_dest_path": "agents/configs/",
+      "tool_dest_path": "agents/tools"
+    },
+    "config_repo": {
+      "config_source_path": "configs/<agency_id>/<business_id>/ . e.g., /configs/2/377624/",
+      "repo_path": "https://agent-configs.git",
+      "repo_tag": 53,
+      "repo_type": "git"
+    },
+    "tools_repo": {
+      "repo_path": "https://agent-tools.git",
+      "repo_tag": 47,
+      "repo_type": "git",
+      "tool_source_path": "tools/<agency_id>/<business_id>/ . e.g., /tools/2/377624/"
+    }
+  }
+}
